@@ -1,0 +1,24 @@
+1. npm init -y
+2. npm install (i) express 
+3. npm install (i) nodemon 
+4. npm install (i) morgan
+5. npm install (i) dotenv
+6. npm install (i) cors
+//npm i nodemon morgan dotenv cors
+7. npm run dev
+
+
+Rutas relativas: Cortas
+Rutas absolutas: Largas (Desde el disco)
+
+const obj = {
+    "name":"Sam",
+    "cel":"129019201"
+}
+
+obj.name // "Sam"
+const { name, cel } = obj;
+name // "Sam"
+
+
+Nota: cosas entre parentesis no se colocan es otra forma de hacerlo
